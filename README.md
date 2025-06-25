@@ -99,12 +99,12 @@ To create your own dyeable items:
    
 2.**Use 2 textures on item**:
   ```json
-			"minecraft:icon": {
-				"textures": {
-					"default":"dye_boots",
-					"dyed":"dye_boots"
-				}
-			},
+	"minecraft:icon": {
+		"textures": {
+			"default":"dye_boots",
+			"dyed":"dye_boots"
+		}
+	}
   ```
 
 3. **Use color-change materials** in attachables:
