@@ -1,0 +1,16 @@
+{
+	"texture_data": {
+		"dye_boots": {
+			"textures": "textures/items/dye_boots"
+		},
+		"dye_leggings": {
+			"textures": "textures/items/dye_leggings"
+		},
+		"dye_helmet": {
+			"textures": "textures/items/dye_helmet"
+		},
+		"dye_chestplate": {
+			"textures": "textures/items/dye_chestplate"
+		}
+	}
+}

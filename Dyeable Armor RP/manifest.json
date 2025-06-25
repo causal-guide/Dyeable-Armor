@@ -1,0 +1,33 @@
+{
+	"format_version": 2,
+	
+	"header": {
+		"name": "Dyeable Armor",
+		"description": "Dyeable Armor Resource Pack",
+		"uuid": "16efba76-c9fc-5ceb-ea35-fc32b50798b8",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+        "authors": [
+            "Causal"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/causal-guide/Dyeable-Armor/",
+        "generated_with": {"blockbench_item_wizard": ["1.2.1"]}
+    },
+	"modules": [
+		{
+			"description": "Dyeable Armor",
+			"type": "resources",
+			"uuid": "0fa2b7a9-5eab-3b63-09a4-6b847d734774",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "0ebb21a2-f4c5-88fe-f78e-00711cc22b4d",
+			"version": [1, 0, 0]
+		}
+	]
+}

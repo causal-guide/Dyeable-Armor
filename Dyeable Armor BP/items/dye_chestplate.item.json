@@ -1,0 +1,46 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "causal:dye_chestplate",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.chestplate"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"textures": {
+					"default":"dye_chestplate",
+					"dyed":"dye_chestplate"
+				}
+			},
+			"minecraft:display_name":{
+				"value":"Dye Chestplate"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.chest",
+				"protection": 6
+			},
+			"minecraft:enchantable": {
+				"slot": "armor_torso",
+				"value": 9
+			},
+			"minecraft:durability": {
+				"max_durability": 240
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["iron_ingot"],
+						"repair_amount": 60
+					}
+				]
+			},
+			"minecraft:dyeable": {
+				"default_color": "#ffffff"
+			}
+		}
+	}
+}

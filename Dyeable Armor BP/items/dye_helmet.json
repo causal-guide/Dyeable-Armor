@@ -1,0 +1,47 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "causal:dye_helmet",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.helmet"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"textures": {
+					"default":"dye_helmet",
+					"dyed":"dye_helmet"
+				}
+			},
+			
+			"minecraft:display_name":{
+				"value":"Dye Helmet"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head",
+				"protection": 6
+			},
+			"minecraft:enchantable": {
+				"slot": "armor_head",
+				"value": 9
+			},
+			"minecraft:durability": {
+				"max_durability": 240
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["iron_ingot"],
+						"repair_amount": 60
+					}
+				]
+			},
+			"minecraft:dyeable": {
+				"default_color": "#ffffff"
+			}
+		}
+	}
+}

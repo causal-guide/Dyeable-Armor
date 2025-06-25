@@ -1,0 +1,32 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Dyeable Armor",
+		"description": "Dyeable Armor Behavior Pack",
+		"uuid": "0ebb21a2-f4c5-88fe-f78e-00711cc22b4d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"metadata": {
+        "authors": [
+            "Causal"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/causal-guide/Dyeable-Armor/",
+        "generated_with": {"blockbench_item_wizard": ["1.2.1"]}
+    },
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "d02a89f7-250c-7d66-8ef0-a47b5cfc6e0e",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "16efba76-c9fc-5ceb-ea35-fc32b50798b8",
+			"version": [1, 0, 0]
+		}
+	]
+}
